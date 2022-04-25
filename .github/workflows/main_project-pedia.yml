@@ -2,7 +2,7 @@ on: push
 
 env:
   AZURE_WEBAPP_NAME: PROJECTPEDIA # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: 'website\public\index.html'  # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_PACKAGE_PATH: './website'  # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '16.x'                # set this to the node version to use
 
 jobs:
