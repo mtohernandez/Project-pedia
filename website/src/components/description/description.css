@@ -1,0 +1,15 @@
+.description_container{
+    padding-left: 4%;
+    margin-top: 1%;
+    width: 937px;
+}
+
+
+.description_container p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}

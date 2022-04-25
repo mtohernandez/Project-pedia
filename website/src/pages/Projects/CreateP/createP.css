@@ -1,0 +1,88 @@
+.project-form-whole{
+    font-family: 'Impact';   
+    display: block;
+    text-align: center;
+    padding: 2rem 0rem;
+
+}
+
+.project-form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+    height: 500px;
+    width: 320px;
+}
+
+.project-form h1{
+    padding: 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-form input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    position: relative;
+    outline: 0;
+    width: 100%;
+    
+}
+
+.fade-in{
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    width: 200px;   
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.project-form button{
+    background-color: rgb(64, 65, 66);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    outline: 0;
+    text-align: center;
+    width: 105%;   
+}
+
+.project-form-input{
+    margin: 1rem 0rem;
+}

@@ -1,0 +1,10 @@
+:root{
+  --font-family: 'Impact';
+  --background-color: #b85300;
+  ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
